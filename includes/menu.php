@@ -6,7 +6,7 @@ session_start();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UNIVERSITY CLEARANCE</title>
+    <title>Debre Berhan University-online student clearance</title>
     <link rel="stylesheet" type="text/css" href="Css/style.css">
      <link rel="icon" href="images/logo.png" type="image/png">
     <style>

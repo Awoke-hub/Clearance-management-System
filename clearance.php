@@ -1,5 +1,5 @@
 <?php 
-session_start();
+include 'includes/menu.php';
 include 'includes/db.php';
 
 // Redirect if not logged in
@@ -61,8 +61,6 @@ if (isset($_POST['submit_request'])) {
     }
 }
 ?>
-
-<?php include 'includes/menu.php'; ?>
 
 <style>
     .clearance-container {

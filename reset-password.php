@@ -1,5 +1,5 @@
 <?php
-session_start();
+ include 'includes/menu.php'; 
 include 'includes/db.php';
 
 if (!isset($_SESSION['reset_student_id'])) {
@@ -32,7 +32,6 @@ if (isset($_POST['reset'])) {
 }
 ?>
 
-<?php include 'includes/menu.php'; ?>
 
 <style>
     .reset-container {

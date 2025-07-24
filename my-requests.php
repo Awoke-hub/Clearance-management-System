@@ -1,5 +1,5 @@
 <?php
-session_start();
+include 'includes/menu.php'; 
 include 'includes/db.php';
 
 if (!isset($_SESSION['student_id'])) {
@@ -17,7 +17,6 @@ $tables = [
 ];
 ?>
 
-<?php include 'includes/menu.php'; ?>
 
 <div style="max-width:900px; margin:40px auto; background:#f8f8f8; padding:20px; border-radius:8px; color:#333;">
     <h2 style="text-align:center; color:#008B8B;">My Clearance Requests</h2>
