@@ -1,7 +1,6 @@
+<?php include 'includes/menu.php'; ?>
 <?php
-session_start();
 include 'includes/db.php'; 
-
 if (isset($_POST['login'])) {
     $username = trim($_POST['username']);
     $password = trim($_POST['password']);
@@ -33,8 +32,6 @@ if (isset($_POST['login'])) {
     }
 }
 ?>
-
-<?php include 'includes/menu.php'; ?>
 
 <div class="login-container">
     <h2>Student Login</h2>
